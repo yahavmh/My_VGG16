@@ -1,6 +1,8 @@
 # My_VGG16
 This is an implementation of VGG16 on Python 3, Keras, and TensorFlow for detecting weed in cornfields using RGB images taken from UAV.
-The model uses Color Segmentation for background removal using HSV, Data Augmentation (including Gaussian Noise), Dropout and Batch Normalization. 
+The model uses Color Segmentation for background removal using HSV, Data Augmentation (including Gaussian Noise), Dropout and Batch Normalization.
+
+*Notice the results on the code section are different, as it was trained on 5 epochs only. The project has been done on 50 epochs.
 
 
 ![image](https://user-images.githubusercontent.com/60111412/86477039-52a80d80-bd50-11ea-9b3c-b9e2b4abc2ed.png)  ![image](https://user-images.githubusercontent.com/60111412/86478421-ea0e6000-bd52-11ea-9f93-671988ce5f56.png)
